@@ -1,8 +1,8 @@
-**ALX MVP Project.
+# ALX MVP Project.
 
-NM Player Version 1.0**
+# NM Player Version 1.0
 
-** Music Player Created with Python 3.12.2 using Tkinter library, Pygame 2.5.2 (SDL 2.82.3) and OS module. **
+# Music Player Created with Python 3.12.2 using Tkinter library, Pygame 2.5.2 (SDL 2.82.3) and OS module. 
 
 The tkinter library is used for making the Music Player GUI, os module for the file path, mixer module from pygame library for loading and controlling the music.
 
