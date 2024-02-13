@@ -6,6 +6,7 @@ import pygame
 import os
 import pygame.mixer as mixer
 
+
 # initializing the mixer
 mixer.init()
 
