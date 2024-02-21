@@ -104,19 +104,18 @@ master, text, bg, font and width parameters have the same description as in the 
 * I initially conducted research on available libraries and technologies suitable for this project. I started with developing the basic GUI layout using Tkinter and integrating with Pygame for audio playback.
 * Iterative testing and debugging were conducted to ensure functionality and stability. 
 
-*
 * The side parameter of the .pack() method is used to specify where the widget will be placed on the parent widget or the master window.
 * The fill parameter defines whether the widget will fill the horizontal (X has to be provided as argument) or the vertical (Y has to be provided as argument) parts of the parent widget/window or the entire parent (BOTH has to be provided as argument).
 * The padx, pady parameters define how many pixels to leave between the widget and the nearby borders (horizontal, vertical).
 
 * The justify parameter of the Label class denotes the alignment of the text on the widget.
 
-  # Live Demo
-  https://nicolasmabeleng.github.io/alx-landing_page/
-  https://mabelengnicolas.wixsite.com/nm-player-1
+# Live Demo
+*  https://nicolasmabeleng.github.io/alx-landing_page/
+* https://mabelengnicolas.wixsite.com/nm-player-1
 
 
-Author: Nicolas Mabeleng(mabelengnicolas@outlook.com)
-LinkedIn: Nicolas Mabeleng
-LinkedIn | Facebook | Instagram | X(Twitter) 
-Nicolas Mabeleng
+* Author: Nicolas Mabeleng(mabelengnicolas@outlook.com)
+
+* LinkedIn | Facebook | Instagram | X(Twitter) 
+* Nicolas Mabeleng
