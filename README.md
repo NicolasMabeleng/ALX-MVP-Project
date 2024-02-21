@@ -2,10 +2,19 @@
 
 # NM Player Version 1.0
 
+# Technology Stack:
+* Python for primary programming language for development.
+* Tkinter to help with creating a GUI toolkit for building user interface.
+* Pygame as a library to utilize audio playback and manipulation.
+
+# Architecture:
+* This project follows a modular architecture, separating GUI components from backend logic.
+* Tkinter widgets are used to create the user-interface, including buttons, labels, and file dialogs,
+* Pygame utilize audio playback, providing functionalities such as play, stop, and playlist management
+
 # Music Player Created with Python 3.12.2 using Tkinter library, Pygame 2.5.2 (SDL 2.82.3) and OS module. 
 
 The tkinter library is used for making the Music Player GUI, os module for the file path, mixer module from pygame library for loading and controlling the music.
-
 
 # Install the necessary libraries and modules using the pip installer.
 pip install tk
@@ -82,13 +91,32 @@ pip install os-sys
 master, text, bg, font and width parameters have the same description as in the other widgets.
 * command parameter is used to define the command the button will execute when it is pressed. It may be a statement, function with or without arguments. The functions without arguments can be executed without anything extra, but you need to use the lambda: keyword to assign functions with arguments.
 * The .pack() method, another Tkinter geometry manager method, is used to pack a widget as though the master window or the parent widget was a spreadsheet, in the form of rows and columns.
+
+# Inspiration 
+* The inspiration behind this project was emerged by my passion for music with my interest in Python programming.
+* Music changed my life in so many ways that one wouldn’t believe and at some point I would struggle with playing other formats due to Apps specifications, so I observed the growing popularity of music streaming services and the ubiquity of music apps, then saw an opportunity to delve into developing a personalized solution that could also allow other people to listen to their choice of music, in any formats of their choice as I will be adding more formats preferences.
+
+# Challenges 
+* I encountered challenges that sharpened my skills in integrating Tkinter and Pygame by carefully managing loops and application states. One notable challenge was implementing algorithms for managing playlists, being able to select and play songs and also removing songs and navigating through it.
+* I gained a deeper understanding of GUI development using Tkinter and the intricacies of audio processing with Pygame.
+* Also learned about event-driven programming paradigms and the significance of asynchronous operations in a GUI applications.
+* I discovered techniques for optimizing audio playback performance and ensuring compatibility across different platforms and devices throughout my research and development process.
+* I initially conducted research on available libraries and technologies suitable for this project. I started with developing the basic GUI layout using Tkinter and integrating with Pygame for audio playback.
+* Iterative testing and debugging were conducted to ensure functionality and stability. 
+
+*
 * The side parameter of the .pack() method is used to specify where the widget will be placed on the parent widget or the master window.
 * The fill parameter defines whether the widget will fill the horizontal (X has to be provided as argument) or the vertical (Y has to be provided as argument) parts of the parent widget/window or the entire parent (BOTH has to be provided as argument).
 * The padx, pady parameters define how many pixels to leave between the widget and the nearby borders (horizontal, vertical).
 
 * The justify parameter of the Label class denotes the alignment of the text on the widget.
 
+  # Live Demo
+  https://nicolasmabeleng.github.io/alx-landing_page/
+  https://mabelengnicolas.wixsite.com/nm-player-1
+
 
 Author: Nicolas Mabeleng(mabelengnicolas@outlook.com)
+LinkedIn: Nicolas Mabeleng
 LinkedIn | Facebook | Instagram | X(Twitter) 
 Nicolas Mabeleng
